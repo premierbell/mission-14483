@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.back.CalcTest" tests="28" skipped="0" failures="11" errors="0" timestamp="2025-08-31T13:59:10.162Z" hostname="macbookui-MacBookPro.local" time="0.063">
+  <properties/>
+  <testcase name="1 + 1 == 2" classname="com.back.CalcTest" time="0.032"/>
+  <testcase name="2 + 1 == 3" classname="com.back.CalcTest" time="0.0"/>
+  <testcase name="2 + 2 == 4" classname="com.back.CalcTest" time="0.0"/>
+  <testcase name="1000 + 280 == 1280" classname="com.back.CalcTest" time="0.0"/>
+  <testcase name="2 - 1 == 1" classname="com.back.CalcTest" time="0.001"/>
+  <testcase name="3 - 1 == 2" classname="com.back.CalcTest" time="0.0"/>
+  <testcase name="100 - 20 == 80" classname="com.back.CalcTest" time="0.001"/>
+  <testcase name="10 + 20 + 30 == 60" classname="com.back.CalcTest" time="0.0"/>
+  <testcase name="10 - 20 + 30 == 20" classname="com.back.CalcTest" time="0.0"/>
+  <testcase name="10 - 10 - 10 - 10 == -20" classname="com.back.CalcTest" time="0.001"/>
+  <testcase name="10 - 10 - 10 - 10 + 10 + 10 - 10 == -10" classname="com.back.CalcTest" time="0.001"/>
+  <testcase name="10 * 10 == 100" classname="com.back.CalcTest" time="0.0"/>
+  <testcase name="10 * -10 == -100" classname="com.back.CalcTest" time="0.0"/>
+  <testcase name="10 * 10 * 10 == 1000" classname="com.back.CalcTest" time="0.0"/>
+  <testcase name="10 + 5 * 2 == 20" classname="com.back.CalcTest" time="0.001"/>
+  <testcase name="20 + 10 + 5 * 2 == 40" classname="com.back.CalcTest" time="0.0"/>
+  <testcase name="10 * 20 + 10 + 5 * 2 == 220" classname="com.back.CalcTest" time="0.0"/>
+  <testcase name="(10 + 20) == 30" classname="com.back.CalcTest" time="0.003">
+    <failure message="java.lang.NumberFormatException: For input string: &quot;(10&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;(10&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:648)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.back.Calc.run(Calc.java:12)
+	at com.back.CalcTest.t18(CalcTest.java:114)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="((10 + 20)) == 30" classname="com.back.CalcTest" time="0.001">
+    <failure message="java.lang.NumberFormatException: For input string: &quot;((10&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;((10&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:648)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.back.Calc.run(Calc.java:12)
+	at com.back.CalcTest.t19(CalcTest.java:120)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="(((10 + 20))) == 30" classname="com.back.CalcTest" time="0.001">
+    <failure message="java.lang.NumberFormatException: For input string: &quot;(((10&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;(((10&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:648)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.back.Calc.run(Calc.java:12)
+	at com.back.CalcTest.t20(CalcTest.java:126)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="(20 + 20) + 20 == 60" classname="com.back.CalcTest" time="0.001">
+    <failure message="java.lang.NumberFormatException: For input string: &quot;(20&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;(20&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:648)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.back.Calc.run(Calc.java:12)
+	at com.back.CalcTest.t21(CalcTest.java:132)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="((20 + 20)) + 20 == 60" classname="com.back.CalcTest" time="0.001">
+    <failure message="java.lang.NumberFormatException: For input string: &quot;((20&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;((20&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:648)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.back.Calc.run(Calc.java:12)
+	at com.back.CalcTest.t22(CalcTest.java:138)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="(10 + 20) * 3 == 90" classname="com.back.CalcTest" time="0.001">
+    <failure message="java.lang.NumberFormatException: For input string: &quot;20)&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;20)&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.back.Calc.run(Calc.java:12)
+	at com.back.CalcTest.t23(CalcTest.java:144)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="10 + (10 + 5) == 25" classname="com.back.CalcTest" time="0.001">
+    <failure message="java.lang.NumberFormatException: For input string: &quot;(10&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;(10&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:648)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.back.Calc.run(Calc.java:13)
+	at com.back.CalcTest.t24(CalcTest.java:150)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="-(10 + 5) == -15" classname="com.back.CalcTest" time="0.0">
+    <failure message="java.lang.NumberFormatException: For input string: &quot;-(10&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;-(10&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.back.Calc.run(Calc.java:12)
+	at com.back.CalcTest.t25(CalcTest.java:156)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="-(8 + 2) * -(7 + 3) + 5 == 105" classname="com.back.CalcTest" time="0.0">
+    <failure message="java.lang.NumberFormatException: For input string: &quot;2)&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;2)&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.back.Calc.run(Calc.java:12)
+	at com.back.CalcTest.t26(CalcTest.java:162)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="5 - (1 + 5) == -1" classname="com.back.CalcTest" time="0.001">
+    <failure message="java.lang.NumberFormatException: For input string: &quot;(1&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;(1&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:648)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.back.Calc.run(Calc.java:13)
+	at com.back.CalcTest.t27(CalcTest.java:168)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="3 * 1 + (1 - (4 * 1 - (1 - 1))) == 0" classname="com.back.CalcTest" time="0.002">
+    <failure message="java.lang.NumberFormatException: For input string: &quot;(4&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;(4&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:648)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.back.Calc.run(Calc.java:12)
+	at com.back.Calc.run(Calc.java:21)
+	at com.back.CalcTest.t28(CalcTest.java:174)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
